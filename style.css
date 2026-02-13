@@ -166,7 +166,8 @@ body {
   font-weight: 600;
   font-size: 15px;
 }
-.cta-button:hover { background: var(--accent-hover); color: #fff; }
+.article a.cta-button { color: #fff; text-decoration: none; }
+.cta-button:hover, .article a.cta-button:hover { background: var(--accent-hover); color: #fff; }
 
 /* Internal Links */
 .related-guides {
